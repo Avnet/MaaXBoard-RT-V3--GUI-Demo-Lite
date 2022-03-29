@@ -1,0 +1,11 @@
+Debug/
+GuiderProject/temp/
+GuiderProject/lvgl-simulator/build
+
+*.launch
+
+language.settings.xml
+.vscode/
+.settings/
+.metadata/
+.mcuxpressoide_packages_support/
