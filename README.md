@@ -69,11 +69,16 @@ From the main repository page, click on the “Code” button and select “Down
 ## Importing the demo
 Once the MCUXpresso IDE and SDK are installed, import the GUI example demo zip file that was downloaded in the previous section into a new workspace by clicking on the “Import project(s) from file system link” on the “Quickstart Panel”.
 
-<img width="300" src="./images/Import1.png">
+<img width="300" src="./images/Import1.png"><br/>
 
 Select the zip file to import from the file system by pressing the browse button and then press finish.
 
-<img width="300" src="./images/Import2.png">
+<img width="300" src="./images/Import2.png"><br/>
+
+NOTE: Before launching the debugger, copy the “MaaXBoard_S26KS256.cfx” file from the “xip” folder 
+to the “.mcuxpressoide_packages_support\MIMXRT1176xxxxx_support\Flash” directory within your workspace.
+<img width="600" src="./images/Import3.png"><br/>
+
 
 # Mode of Operation
 ## Console mode
