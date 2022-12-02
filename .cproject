@@ -92,6 +92,7 @@
 								<option id="com.crt.advproject.gcc.hdrlib.908112254" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" useByScannerDiscovery="false" value="com.crt.advproject.gcc.hdrlib.newlibnano" valueType="enumerated"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.901175802" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="CPU_MIMXRT1176DVMAA"/>
+									<listOptionValue builtIn="false" value="AES_ACC_MAAX_DISP2"/>
 									<listOptionValue builtIn="false" value="AVT_DISPLAY_ROTATE_180"/>
 									<listOptionValue builtIn="false" value="CPU_MIMXRT1176DVMAA_cm7"/>
 									<listOptionValue builtIn="false" value="XIP_BOOT_HEADER_DCD_ENABLE=1"/>
@@ -363,6 +364,9 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="com.crt.advproject.config.exe.debug.1271821537.1544777273" name="fsl_gt911.c" rcbsApplicability="disable" resourcePath="touchpanel/fsl_gt911.c" toolsToInvoke="com.crt.advproject.gcc.exe.debug.1577853250.2013450435">
+						<tool id="com.crt.advproject.gcc.exe.debug.1577853250.2013450435" name="MCU C Compiler" superClass="com.crt.advproject.gcc.exe.debug.1577853250"/>
+					</fileInfo>
 					<sourceEntries>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="CMSIS"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="board"/>
@@ -377,7 +381,7 @@
 						<entry excluding="lvgl/examples/porting/lv_port_disp_template.c|lvgl/examples/porting/lv_port_fs_template.c|lvgl/examples/porting/lv_port_indev_template.c" flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="littlevgl"/>
 						<entry excluding="network_demo.h|network_demo.c|audio_test.c" flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="source"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup"/>
-						<entry excluding="fsl_gt911.c" flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="touchpanel"/>
+						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="touchpanel"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="utilities"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="video"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xip"/>

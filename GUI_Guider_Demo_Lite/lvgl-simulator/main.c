@@ -128,15 +128,6 @@ static void hal_init(void)
     disp_drv.flush_cb = monitor_flush;    /*Used when `LV_VDB_SIZE != 0` in lv_conf.h (buffered drawing)*/
     lv_disp_drv_register(&disp_drv);
 
-    /* Add the mouse as input device
-     * Use the 'mouse' driver which reads the PC's mouse*/
-    mouse_init();
-    lv_indev_drv_t indev_drv;
-    lv_indev_drv_init(&indev_drv);          /*Basic initialization*/
-    indev_drv.type = LV_INDEV_TYPE_POINTER;
-    indev_drv.read_cb = mouse_read;         /*This function will be called periodically (by the library) to get the mouse position and state*/
-    lv_indev_t * mouse_indev = lv_indev_drv_register(&indev_drv);
-
     /* Tick init.
      * You have to call 'lv_tick_inc()' in periodically to inform LittelvGL about how much time were elapsed
      * Create an SDL thread to do this*/
