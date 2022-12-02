@@ -18,6 +18,7 @@ This program demonstrates the basic functionality of MaaXBoard-RT board. It incl
 - [Cloning](#cloning)
   - [Downloading the source code from GitHub](#downloading-the-source-code-from-github)
   - [Importing the demo](#importing-the-demo)
+  - [Supported displays](#Supported-displays)
 - [Mode of Operation](#mode-of-operation)
   - [Console mode](#console-mode)
   - [GUI mode](#gui-mode)
@@ -79,6 +80,9 @@ NOTE: Before launching the debugger, copy the “MaaXBoard_S26KS256.cfx” file 
 to the “.mcuxpressoide_packages_support\MIMXRT1176xxxxx_support\Flash” directory within your workspace.
 <img width="600" src="./images/Import3.png"><br/>
 
+# Supported displays
+This demo will now support bothe the **AES-ACC-MAAX-DISP1** and **AES-ACC-MAAX-DISP2** displays.\
+To switch to the AES-ACC-MAAX-DISP2 display, add a "**AES_ACC_MAAX_DISP2**" preprocessor definition under project properties -> C/C++ Build -> Settings -> Tool Settings tab -> MCU C Compiler -> Preprocessor.
 
 # Mode of Operation
 ## Console mode
